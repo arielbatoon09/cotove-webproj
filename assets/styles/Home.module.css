@@ -38,7 +38,7 @@ li{
     border: none;
     border-radius: 5px;
     outline: none;
-    padding: 12px 26px;
+    padding: 10px 16px;
     transition: all 0.2s ease-in-out;
 }
 .primary-btn:hover{
@@ -86,10 +86,10 @@ li{
 }
 .navbar-nav .nav-link{
     color: var(--c-ash-black);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 .navbar-nav .nav-link:hover{
-    transform: scale(1.2, 1.2);
+    color: var(--c-darken-pink);
 }
 nav.stick{
     transition: all 0.5s;
@@ -202,6 +202,10 @@ nav.stick{
     padding: 30px;
 }
 .service-wrap > h2{
+    width: 100px;
+    background: rgba(255,255,255,0.6);
+    text-align: center;
+    padding: 2px 3px;
     font-size: 1rem;
     font-weight: 600;
     color: var(--c-darken-pink);
